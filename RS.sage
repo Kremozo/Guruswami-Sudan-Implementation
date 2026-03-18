@@ -429,7 +429,7 @@ if __name__ == "__main__":
     
     # Run the experiments
     suite.run_radius_experiment(ms=[1, 2, 3,4], trials=20)
-    #suite.run_runtime_experiment(max_m=5, trials=20)
-    #suite.run_list_size_experiment(m=3, trials=100)
-    #suite.run_rate_stress_test()
-    #suite.run_interleaved_collision(trials=20)
+    suite.run_runtime_experiment(max_m=5, trials=20)
+    suite.run_list_size_experiment(m=3, trials=100)
+    suite.run_rate_stress_test()
+    suite.run_interleaved_collision(trials=20)
