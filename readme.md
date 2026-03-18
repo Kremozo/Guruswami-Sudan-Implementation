@@ -18,11 +18,12 @@ This project **must be run in a Linux environment**.
 * **Automated Experiment Suite:** Includes a complete testing environment (`GSExperimentSuite`) to simulate noisy channels, evaluate runtime, map decoding radii, and test adversarial signal collisions.
 
 ## Repository Structure
-* **`RS.sage`**: The core source code containing the `GSDecoder` implementation and the `GSExperimentSuite`.
-* **`experiment1_logs.txt`**: Generated log outputs from the execution of the first experiment.
-* **`exp1_radius_comparison.png` / `exp1_radius.png`**: Visualizations of the success probability against the number of errors across varying multiplicities $m$.
-* **`exp2_runtime.png`**: A chart illustrating the growth in runtime cost as the multiplicity parameter increases.
-* **`exp3_listsize.png`**: A histogram showing the distribution of output list sizes under random noise models.
+* ![RS.sage](RS.sage): The core source code containing the `GSDecoder` implementation and the `GSExperimentSuite`.
+* ![experiment1_logs.txt](experiment1_logs.txt) Generated log outputs from the execution of the first experiment.
+* ![exp1_radius.png](exp1_radius.png) Visualizations of the success probability against the number of errors across with multiplicty = 1.
+* ![exp1_radius_comparison.png](exp1_radius_comparison.png) Visualizations of the success probability against the number of errors across varying multiplicities $m$.
+* ![exp2_runtime.png](exp2_runtime.png) A chart illustrating the growth in runtime cost as the multiplicity parameter increases.
+* ![exp3_listsize.png](exp3_listsize.png) A histogram showing the distribution of output list sizes under random noise models.
 
 ## Experimental Insights
 
