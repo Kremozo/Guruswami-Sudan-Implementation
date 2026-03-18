@@ -1,9 +1,10 @@
 # Guruswami-Sudan List Decoder Implementation in SageMath
 
 **Project Status: Completed**
-> 📄 **[Read the Full Project Report Here](docs/GS_decoder_implemention.pdf)**\
->  This repository provides a complete implementation and experimental analysis of the Guruswami-Sudan (GS) list decoding algorithm for Reed-Solomon (RS) codes. The implementation is written in SageMath to leverage its robust algebraic capabilities over finite fields. 
-\Traditional unique decoding algorithms, such as Berlekamp-Massey, are strictly limited by the unique decoding radius of $(n-k)/2$. The Guruswami-Sudan algorithm effectively recovers messages from corrupted codewords even when the noise level exceeds this bound, theoretically approaching the Johnson bound.
+📄 **[Read the Full Project Report Here](docs/GS_decoder_implemention.pdf)**
+
+This repository provides a complete implementation and experimental analysis of the Guruswami-Sudan (GS) list decoding algorithm for Reed-Solomon (RS) codes. The implementation is written in SageMath to leverage its robust algebraic capabilities over finite fields. 
+Traditional unique decoding algorithms, such as Berlekamp-Massey, are strictly limited by the unique decoding radius of $(n-k)/2$. The Guruswami-Sudan algorithm effectively recovers messages from corrupted codewords even when the noise level exceeds this bound, theoretically approaching the Johnson bound.
 
 ## Environment Requirements
 This project **must be run in a Linux environment**. 
